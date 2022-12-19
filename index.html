@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="index.css">
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <title>music website</title>
+</head>
+<body background="https://img.freepik.com/free-photo/white-marble-texture-background-abstract-marble-texture-natural-patterns-design_41389-323.jpg?size=626&ext=jpg" >
+
+    <!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-wide w3-padding w3-card">
+   
+    <!-- Float links to the right. Hide them on small screens -->
+    <div class="w3-right w3-hide-small">
+    <!-- buttons -->
+        <!-- <button type="button"  class="btn btn-dark" id="b5" onclick="show()"> Search Lyrics </button> -->
+        <button type="button" class="btn btn-dark" id="b1" onclick="showtopArtist()"> Top Artists </button>
+        <button type="button" class="btn btn-dark" id="b2" onclick="showTopTracks()">Top Tracks </button>
+        <button type="button" class="btn btn-dark" id="b3" onclick="showTopTags()"> Top Tags</button>
+        <button type="button" class="btn btn-dark" id="b4" onclick="searchAlbum()">Search </button>
+        <input type="text" id="inputbox" placeholder="Search for an album..">        
+
+        
+    </div>
+  </div>
+</div>
+<br><br><br>
+<!-- Header -->
+    <!--  start of slide show -->
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  
+  <img src="s8.jpg" style="width:100%">
+  <div class="text"></div>
+</div>
+
+
+
+<div class="mySlides fade">
+  
+  <img src="s9.jpg" style="width:100%">
+  <div class="text">the Latest Albums</div>
+</div>
+    <div class="mySlides fade">
+ 
+  <img src="s2.jpg" style="width:100%">
+  <div class="text">the Latest Albums</div>
+</div>
+    <div class="mySlides fade">
+ 
+  <img src="s6.jpg" style="width:100%">
+  <div class="text">Jesus is king makes history</div>
+</div>
+    <div class="mySlides fade">
+ 
+  <img src="s10.jpg" style="width:100%">
+  <div class="text">Ariana Grande announces release date for new album "Sweetner" </div>
+</div>
+    <div class="mySlides fade">
+ 
+  <img src="s11.jpg" style="width:100%">
+  <div class="text">The Weeknd newest hit out now</div>
+</div>
+    <div class="mySlides fade">
+ 
+  <img src="s5.jpg" style="width:100%">
+  <div class="text">Albums of the year</div>
+</div>
+   
+
+</div>
+<br>
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span>
+  <span class="dot"></span>
+  <span class="dot"></span>
+  <span class="dot"></span>
+  <span class="dot"></span>
+  
+  
+</div>
+     <!--  end of slide show -->
+<!-- Page content -->
+    <!-- IGNORE -->
+<div class="w3-content w3-padding" style="max-width:1564px">
+
+  <!-- Project Section -->
+  <div class="w3-container w3-padding-32" id="projects">
+    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16" id="myheader" style="font-weight: bold; font-size: 50px; color: #1d2739;
+    font-family: Gill Sans;"></h3>
+  </div>
+
+  <div class="card-columns" id="mydiv" >
+   
+  </div>
+
+
+
+  <!-- About Section -->
+ 
+
+  <!-- Contact Section -->
+
+  
+<!-- Image of location/map -->
+
+
+<!-- End page content -->
+</div>
+
+
+<!-- Footer -->
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+ <script src="index.js"></script>
+</body>
+</html>
